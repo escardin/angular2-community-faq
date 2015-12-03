@@ -18,7 +18,7 @@ constructor(private service:Service){}
 }
 
 @Component({
-provide:[Service, Service2]
+providers:[Service, Service2]
 })
 export class Component{
 constructor(private service:Service2){}
