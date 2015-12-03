@@ -18,14 +18,14 @@ export class BService{}
 export class CService{
 constructor(private aService:AService,private bService:BService){}
 }
-//Provides a single instance of AService and CService to all children of AppComponent
+//Provides a single instance of AService and CService to AppComponent and all of its children
 @Component({
 providers:[AService, CService]
 })
 export class AppComponent{
 constructor(private service:CService){}
 }
-//Provide an instance of BService to everything
+//Provide a single instance of BService to everything
 bootstrap(AppComponent,[BService]);
 ```
 See also: [Injectable Metadata](https://angular.io/docs/ts/latest/api/core/InjectableMetadata-class.html)
