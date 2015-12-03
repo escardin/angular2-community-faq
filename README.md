@@ -10,19 +10,23 @@ There are two common approaches; Use a shared service, or have a common parent p
 ### How do I create a service?
 A service is just a TypeScript class. If your service has dependencies which need to be injected, you need to annotate it. The `Injectable()` annotation was created for this purpose.
 ```javascript
-export class Service{}
+export class AService{}
 
+export class BService{}
+//This must be marked with an annotation so that Typescript will generate the information required to inject dependencies
 @Injectable()
-export class Service2{
-constructor(private service:Service){}
+export class CService{
+constructor(private aService:AService,private bService:BService){}
 }
-
+//Provides a single instance of AService and CService to all children of AppComponent
 @Component({
-providers:[Service, Service2]
+providers:[AService, CService]
 })
-export class Component{
-constructor(private service:Service2){}
+export class AppComponent{
+constructor(private service:CService){}
 }
+//Provide an instance of BService to everything
+bootstrap(AppComponent,[BService]);
 ```
 See also: [Injectable Metadata](https://angular.io/docs/ts/latest/api/core/InjectableMetadata-class.html)
 
