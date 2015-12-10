@@ -68,7 +68,7 @@ Observable.from([1,2,3]).map(val => val+1).subscribe((d) => console.log(d));
 
 ### Reference
 
-- Issue [RxJS #](https://github.com/ReactiveX/RxJS/pull/843)
+- Issue [RxJS #843](https://github.com/ReactiveX/RxJS/pull/843)
 - Issue [ng2 #5632](https://github.com/angular/angular/issues/5632)
 - Issue [ng2 #5749](https://github.com/angular/angular/issues/5749)
 
