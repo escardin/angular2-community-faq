@@ -60,7 +60,7 @@ System.config({
 With this configuration you don't need to import each operator / observable individually.
 
 ```typescript
-import {Observable} from 'rxjs/Observable';
+import {Observable} from 'rxjs';
 
 Observable.from([1,2,3]).map(val => val+1).subscribe((d) => console.log(d));
 ```
