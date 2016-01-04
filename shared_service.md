@@ -2,7 +2,7 @@
 
 A shared service is one way of sharing data between components which are not directly related to each other (i.e. not the immediate parent or child).
 
-live example: http://plnkr.co/edit/cXhr8LwWrISJWpDRLDvL?p=preview
+[Live example](http://plnkr.co/edit/cXhr8LwWrISJWpDRLDvL?p=preview)
 
 ```typescript
 import {bootstrap} from 'angular2/platform/browser';
@@ -78,3 +78,4 @@ export class App{
 }
 bootstrap(App, [ErrorService,ErrorConsoleService])
 ```
+Additional documentation: http://coryrylan.com/blog/angular-2-observable-data-services
