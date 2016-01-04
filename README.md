@@ -33,9 +33,33 @@ See also: [Injectable Metadata](https://angular.io/docs/ts/latest/api/core/Injec
 ### How do I share a service instance between multiple components?
 Provide the service in a common parent or the bootstrap. Every time you provide a service you get a new instance.
 
+### How do I communicate between components using a shared service?
+See: https://github.com/escardin/angular2-community-faq/blob/master/shared_service.md
+
 ## Router
 
 ### Any good tutorials for the Router?
 Not yet, in the meantime you can look at this: https://www.youtube.com/watch?v=z1NB-HG0ZH4
 
+You can also take a look at this Plunkr, which while complex, does just about everything you would want with the router. http://plnkr.co/edit/Bim8OGO7oddxBaa26WzR?p=preview
+
+
 ## Redux with Rx
+
+## RXJS
+
+### Observable.map() (etc...) doesn't work!
+
+See: https://github.com/escardin/angular2-community-faq/blob/master/rxjs_operators.md
+
+## Forms
+
+### Validation
+
+#### How do I use more than one validator on a single control?
+
+See: https://plnkr.co/edit/5yO4HviXD7xIgMQQ8WKs?p=preview
+
+#### How do I make a custom validator?
+
+See: https://plnkr.co/edit/5yO4HviXD7xIgMQQ8WKs?p=preview
