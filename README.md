@@ -43,6 +43,9 @@ Not yet, in the meantime you can look at this: https://www.youtube.com/watch?v=z
 
 You can also take a look at this Plunkr, which while complex, does just about everything you would want with the router. http://plnkr.co/edit/Bim8OGO7oddxBaa26WzR?p=preview
 
+### How do I do breadcrumbs with the Router?
+
+See: http://plnkr.co/edit/4cw2fPv3vX36v5Lu9Dnq?p=preview
 
 ## Redux with Rx
 
