@@ -47,10 +47,10 @@ Documentation appears to be centered on TypeScript first, and the vast majority 
 
 Using a build system is not required or critical to the functioning of your Angular 2 app, however it is the long term plan, and to get all of the benefits of Angular 2 you will need a compile step. There are lots of bootstrap templates floating around github. Start your project with one of those and you won't have too much trouble.
 
-Webpack Basic Starter: https://github.com/ocombe/ng2-webpack
-Webpack Advanced Starter: https://github.com/AngularClass/angular2-webpack-starter
-SystemJs Basic Starter: https://github.com/pkozlowski-opensource/ng2-play 
-SystemJs Advanced Starter: https://github.com/mgechev/angular2-seed
+- Webpack Basic Starter: https://github.com/ocombe/ng2-webpack
+- Webpack Advanced Starter: https://github.com/AngularClass/angular2-webpack-starter
+- SystemJs Basic Starter: https://github.com/pkozlowski-opensource/ng2-play 
+- SystemJs Advanced Starter: https://github.com/mgechev/angular2-seed
 
 #### Router
 
