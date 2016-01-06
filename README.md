@@ -25,7 +25,7 @@ Angular 2 is very well tested, and does not exhibit a lot of bugs. Their git hub
 
 #### API Stability
 
-With the release of beta, the Angular 2 team is hoping not to make breaking API changes. Some are likely to happen, but hopefully it should not be fix your entire app class api breakage. The only known proposed api breakage at this time is with the router.
+With the release of beta, the Angular 2 team is hoping not to make breaking API changes. Some are likely to happen, but hopefully it should require sweeping changes to your app. The only known proposed api breakages at this time are the router, and the animation API, as the current animation api is said to be temporary.
 
 #### Documentation
 
