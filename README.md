@@ -1,40 +1,16 @@
 # Angular 2 Community FAQ
 
+## [When will Angular 2 be released?](angular2readiness.md#when-will-angular-2-be-released)
+
+## [Is Angular 2 Ready for me?](angular2readiness.md#is-it-ready-for-me)
+
+
 ## Components
 
 ### How do I communicate between two sibling components?
 There are two common approaches; Use a shared service, or have a common parent pass messages between the two.
-  
-## Services
 
-### How do I create a service?
-A service is just a TypeScript class. If your service has dependencies which need to be injected, you need to annotate it. The `Injectable()` annotation was created for this purpose.
-```javascript
-export class LogService{}
-
-export class AuthService{}
-//This must be marked with an annotation so that Typescript will generate the information required to inject dependencies
-@Injectable()
-export class TodoService{
-  constructor(private logService:LogService,private authService:AuthService){}
-}
-//Provides a single instance of LogService and TodoService to TodoComponent and all of its children
-@Component({
-  providers:[LogService, TodoService]
-})
-export class TodoComponent{
-  constructor(private service:TodoService){}
-}
-//Provide a single instance of AuthService to everything
-bootstrap(TodoComponent,[AuthService]);
-```
-See also: [Injectable Metadata](https://angular.io/docs/ts/latest/api/core/InjectableMetadata-class.html)
-
-### How do I share a service instance between multiple components?
-Provide the service in a common parent or the bootstrap. Every time you provide a service you get a new instance.
-
-### How do I communicate between components using a shared service?
-See: https://github.com/escardin/angular2-community-faq/blob/master/shared_service.md
+[Shared service example](services.md#how-do-i-communicate-between-components-using-a-shared-service)
 
 ## Router
 
@@ -51,9 +27,7 @@ See: http://plnkr.co/edit/4cw2fPv3vX36v5Lu9Dnq?p=preview
 
 ## RXJS
 
-### Observable.map() (etc...) doesn't work!
-
-See: https://github.com/escardin/angular2-community-faq/blob/master/rxjs_operators.md
+### [Observable.map() (etc...) doesn't work!](rxjs_operators.md)
 
 ## Forms
 
