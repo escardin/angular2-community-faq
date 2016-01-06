@@ -10,7 +10,7 @@
 ### How do I communicate between two sibling components?
 There are two common approaches; Use a shared service, or have a common parent pass messages between the two.
 
-[Shared service example](services.md#How-do-I-communicate-between-components-using-a-shared-service)
+[Shared service example](services.md#how-do-i-communicate-between-components-using-a-shared-service)
 
 ## Router
 
