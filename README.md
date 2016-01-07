@@ -23,6 +23,10 @@ You can also take a look at this Plunkr, which while complex, does just about ev
 
 See: http://plnkr.co/edit/4cw2fPv3vX36v5Lu9Dnq?p=preview
 
+### How do I do make the Router components and directives available for every component?
+
+See: http://plnkr.co/edit/FmMBasgv1rC1Qs6sJTMA?p=preview
+
 ## Redux with Rx
 
 ## RXJS
