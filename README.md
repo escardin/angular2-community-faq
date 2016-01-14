@@ -64,4 +64,4 @@ See: https://plnkr.co/edit/5yO4HviXD7xIgMQQ8WKs?p=preview
 
 ## Templates
 
-### [How do I make n elements in an *ngFor without a model?](https://plnkr.co/edit/VGHJU7y0eIUAZxYH5gZH?p=preview)
+### [How do I make n elements in an *ngFor without a model?](https://plnkr.co/edit/FTPFoylc8s8pEiVRMoB9?p=preview)
