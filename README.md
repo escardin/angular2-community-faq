@@ -40,6 +40,11 @@ See: http://plnkr.co/edit/FmMBasgv1rC1Qs6sJTMA?p=preview
 - [RxJS 4 operator documentation with examples](https://github.com/Reactive-Extensions/RxJS/tree/master/doc/api/core/operators) (applies reasonably to RxJS 5 in Angular 2)
 - [Filtering data using observables and form inputs](http://plnkr.co/edit/CTpE1DtaVzk1JU5eQWBu?p=preview)
 - [Drag and drop list (similar to JqueryUI sortable list)](http://plnkr.co/edit/LD5FJaI4OOFbKfvhjD4e?p=preview)
+- Youtube Talks
+  - Rob Wormald
+    - [Everything is a Stream](https://www.youtube.com/watch?v=UHI0AzD_WfY)
+    - [Angular 2 Data Flow - Jeff Cross, Rob Wormald and Alex Rickabaugh](https://www.youtube.com/watch?v=bVI5gGTEQ_U)
+    - [Angular 2 Data Flow - Rob Wormald](https://vimeo.com/144625829)
 - Non Free resources:
   - https://egghead.io/series/introduction-to-reactive-programming
   - https://pragprog.com/book/smreactjs/reactive-programming-with-rxjs
