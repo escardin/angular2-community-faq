@@ -2,23 +2,7 @@
 
 This is a simple change, but it has caused a lot of headaches in people. So this explanaition will be super simple and straightfoward.
 
-## Install angular2
-
-```
-npm install angular2@2.0.0-alpha.52
-```
-
-## Install RxJS
-
-```
-npm install rxjs@5.0.0-alpha.14
-```
-
-## Install SystemJS
-
-```
-npm install systemjs
-```
+This guide assumes you have the latest version of Angular2, RxJS 5 and SystemJS.
 
 ## Configure SystemJS
 
