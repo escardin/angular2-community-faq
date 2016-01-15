@@ -1,4 +1,4 @@
-# Loading operators individually for RxJS alpha14 + Angular2 alpha 52 + SystemJS
+# Loading operators individually for RxJS + Angular2 + SystemJS
 
 This is a simple change, but it has caused a lot of headaches in people. So this explanaition will be super simple and straightfoward.
 
