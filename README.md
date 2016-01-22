@@ -68,6 +68,8 @@ See: https://plnkr.co/edit/5yO4HviXD7xIgMQQ8WKs?p=preview
 
 AKA: How do I make a state/province dropdown that changes contents when the country changes?
 
+#### [How do I have form elements in sub components](https://plnkr.co/edit/awfs0HGLkJOd6qdY8rhF?p=preview)
+
 ## Templates
 
 ### [How do I make n elements in an *ngFor without a model?](https://plnkr.co/edit/FTPFoylc8s8pEiVRMoB9?p=preview)
