@@ -1,5 +1,5 @@
 
-A solution from @jgongo with some additional changes based on comments from @krimple
+[A solution from @jgongo](https://gitter.im/angular/angular?at=56a915aa80ad69394a7ad156) with some additional changes based on [comments from @krimple](https://gitter.im/angular/angular?at=56913628d739f50a36029ef7)
 ```typescript
 beforeEachProviders([
  HTTP_PROVIDERS,
