@@ -54,13 +54,11 @@ See: http://plnkr.co/edit/FmMBasgv1rC1Qs6sJTMA?p=preview
 
 ### Validation
 
-#### How do I use more than one validator on a single control?
+#### [How do I use more than one validator on a single control?](https://plnkr.co/edit/5yO4HviXD7xIgMQQ8WKs?p=preview)
 
-See: https://plnkr.co/edit/5yO4HviXD7xIgMQQ8WKs?p=preview
+#### [How do I make a custom validator?]( https://plnkr.co/edit/5yO4HviXD7xIgMQQ8WKs?p=preview)
 
-#### How do I make a custom validator?
-
-See: https://plnkr.co/edit/5yO4HviXD7xIgMQQ8WKs?p=preview
+#### [How do I validate a control based on the value in another control?] (http://plnkr.co/edit/NqQhBPJJo1PzHfisvh9J?p=preview)
 
 ### Complex forms
 
