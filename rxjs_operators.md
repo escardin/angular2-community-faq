@@ -1,30 +1,29 @@
-# Loading operators individually for RxJS alpha14 + Angular2 alpha 52 + SystemJS
+# Loading operators individually for RxJS + Angular2 + SystemJS
 
 This is a simple change, but it has caused a lot of headaches in people. So this explanaition will be super simple and straightfoward.
 
-## Install angular2
-
-```
-npm install angular2@2.0.0-alpha.52
-```
-
-## Install RxJS
-
-```
-npm install rxjs@5.0.0-alpha.14
-```
-
-## Install SystemJS
-
-```
-npm install systemjs
-```
+This guide assumes you have the latest version of Angular2, RxJS 5 and SystemJS.
 
 ## Configure SystemJS
 
 In your index.html your System.config should look like this
 
 ### Configuration for individual observables / operators 
+
+# Simpler configuration
+
+```
+System.config({
+	map: {
+	  rxjs: 'node_modules/rxjs'
+	},
+	packages: {
+	  rxjs: { defaultExtension: 'js' }
+	}
+}
+```
+
+# Alternative configurations
 
 ```
 System.config({
@@ -71,5 +70,4 @@ Observable.from([1,2,3]).map(val => val+1).subscribe((d) => console.log(d));
 - Issue [RxJS #843](https://github.com/ReactiveX/RxJS/pull/843)
 - Issue [ng2 #5632](https://github.com/angular/angular/issues/5632)
 - Issue [ng2 #5749](https://github.com/angular/angular/issues/5749)
-
 - plnkr with code example http://plnkr.co/edit/jzd0SF70GBk1hrSsp4M8 (not yet working)
