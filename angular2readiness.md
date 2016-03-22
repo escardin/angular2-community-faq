@@ -29,6 +29,7 @@ Here are a number of known issues/regressions that the community has found affec
 - Attribute and class bindings throw an error when declared inside ngForm elements in Beta.1 [6374](https://github.com/angular/angular/issues/6374)
 - ngModel broken on select elements [#6573](https://github.com/angular/angular/issues/6573)
 - Problems with zone.js in beta10/11 [#7660](https://github.com/angular/angular/issues/7660)
+- beta.6: TypeError: viewFactory_<name>0 is not a function [#7037](https://github.com/angular/angular/issues/7037)
 
 #### API Stability
 
