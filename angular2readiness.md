@@ -19,7 +19,16 @@ Read the release announcement: http://angularjs.blogspot.ca/2015/12/angular-2-be
 
 #### Stability/Bugginess
 
-Angular 2 is very well tested, and does not exhibit a lot of bugs. Their git hub page shows compatibility for all the browsers they support, and they do benchmarks to test that they have not slowed things down. If you were to stick with a given release of Angular 2 in beta, you could go to production with it successfully.
+Angular 2 is very well tested, and does not exhibit a lot of bugs. Their git hub page shows compatibility for all the browsers they support, and they do benchmarks to test that they have not slowed things down. If you were to stick with a given release of Angular 2 in beta, you could go to production with it successfully. That said, there are some known regressions.
+
+##### Known Regressions
+
+Here are a number of known issues/regressions that the community has found affecting whether you could go to production with a given version of Angular 2
+
+- Minification/mangling busted [#6380](https://github.com/angular/angular/issues/6380)
+- Attribute and class bindings throw an error when declared inside ngForm elements in Beta.1 [6374](https://github.com/angular/angular/issues/6374)
+- ngModel broken on select elements [#6573](https://github.com/angular/angular/issues/6573)
+- Problems with zone.js in beta10/11 [#7660](https://github.com/angular/angular/issues/7660)
 
 #### API Stability
 
@@ -39,11 +48,17 @@ The Angular 2 community is thriving, and a lot of information and tutorials can 
 
 If you need support, the best place to look is the Angular 2 gitter: https://gitter.im/angular/angular. There are lots of people there who can help you out.
 
-#### Not using Typescript/build systems
+#### Do I have to use Typescript?
 
-It is STRONGLY RECOMMENDED that you use a build system such as Webpack or SystemJs and TypeScript. 
+Technically, no. You can use whatever you like. It is strongly recommended that you use TypeScript though.
 
 Documentation appears to be centered on TypeScript first, and the vast majority of examples are in it as well. Most users of Angular 2 have chosen to use Typescript, and that is what they will be familiar with.
+
+The angular team is also developing a plugin for TypeScript that will add Intellisense type hinting for Angular 2 specific constructs, for any editor that supports TypeScript integration.
+
+#### Do I have to use a build system? What build system should I use?
+
+It is STRONGLY RECOMMENDED that you use a build system such as Webpack or SystemJs. 
 
 Using a build system is not required or critical to the functioning of your Angular 2 app, however it is the long term plan, and to get all of the benefits of Angular 2 you will need a compile step. There are lots of bootstrap templates floating around github. Start your project with one of those and you won't have too much trouble.
 
