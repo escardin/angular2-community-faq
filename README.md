@@ -59,16 +59,16 @@
         - [Form elements in sub components](#form-elements-in-sub-components)
 
 ##Templates
-    - [How do I make n elements in an *ngFor without a model?](https://plnkr.co/edit/FTPFoylc8s8pEiVRMoB9?p=preview)
+- [How do I make n elements in an *ngFor without a model?](https://plnkr.co/edit/FTPFoylc8s8pEiVRMoB9?p=preview)
 
 ##Services and Components
-    - [How do I create a service?](services.md#how-do-i-create-a-service)
-    - [How do I share a service instance between multiple components?](services.md#how-do-i-share-a-service-instance-between-multiple-components)
-    - [How do I communicate between two sibling components?](services.md#how-do-i-communicate-between-two-sibling-components)
-    - [How do I communicate between components using a shared service?](services.md#how-do-i-communicate-between-components-using-a-shared-service)
+- [How do I create a service?](services.md#how-do-i-create-a-service)
+- [How do I share a service instance between multiple components?](services.md#how-do-i-share-a-service-instance-between-multiple-components)
+- [How do I communicate between two sibling components?](services.md#how-do-i-communicate-between-two-sibling-components)
+- [How do I communicate between components using a shared service?](services.md#how-do-i-communicate-between-components-using-a-shared-service)
    
 ##Testing
-    - [How do I test an error path with Http and MockBackend?](testing-http-services.md)
+- [How do I test an error path with Http and MockBackend?](testing-http-services.md)
 
 ##[Making fun things](cool_stuff.md) 
    - Drag and Drop
