@@ -19,7 +19,7 @@ Read the release announcement: http://angularjs.blogspot.ca/2015/12/angular-2-be
 
 #### Stability/Bugginess
 
-Angular 2 is very well tested, and does not exhibit a lot of bugs. Their git hub page shows compatibility for all the browsers they support, and they do benchmarks to test that they have not slowed things down. If you were to stick with a given release of Angular 2 in beta, you could go to production with it successfully. That said, there are some known regressions.
+Angular 2 is very well tested~~, and does not exhibit a lot of bugs~~. Their git hub page shows compatibility for all the browsers they support, and they do benchmarks to test that they have not slowed things down. If you were to stick with a given release of Angular 2 in beta, you could go to production with it successfully. That said, there are some known regressions.
 
 ##### Known Regressions
 
