@@ -30,6 +30,7 @@ Here are a number of known issues/regressions that the community has found affec
 - ngModel broken on select elements [#6573](https://github.com/angular/angular/issues/6573)
 - Problems with zone.js in beta10/11 [#7660](https://github.com/angular/angular/issues/7660)
 - beta.6: TypeError: viewFactory_<name>0 is not a function [#7037](https://github.com/angular/angular/issues/7037)
+- beta.2: "Attempt to use a dehydrated detector" in routes, triggered by eventEmitter [#6786](https://github.com/angular/angular/issues/6786)
 
 #### API Stability
 
