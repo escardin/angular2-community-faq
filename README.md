@@ -60,6 +60,8 @@ See: http://plnkr.co/edit/FmMBasgv1rC1Qs6sJTMA?p=preview
 
 #### [How do I make an async validator?](http://plnkr.co/edit/vlzDapiOgVWLNqltEbGb?p=preview)
 
+#### [How do I validate a control based on the value in another control?] (http://plnkr.co/edit/NqQhBPJJo1PzHfisvh9J?p=preview)
+
 ### Complex forms
 
 #### [How do I have a select box that is dependant on another select box](http://plnkr.co/edit/VTCKxH82XVy6XswaiKbg?p=preview)
