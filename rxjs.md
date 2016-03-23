@@ -124,13 +124,13 @@ After you're done with this config, you can import them as in [Individual Operat
 I suggest you look at [ngrx](https://github.com/ngrx) before going with redux proper, as it does the same sort of job. That is not to say that redux is bad or inappropriate, but if you're not already invested you may find it easier.
 
 ## Redux
-    - [ng2+redux guide](http://www.syntaxsuccess.com/viewarticle/redux-in-angular-2.0) (Thanks @baloodevil)
-    - It's out of scope for this faq, but a guide for Redux in general and why it is useful: [Egghead.io getting started with redux](https://egghead.io/series/getting-started-with-redux)
+- [ng2+redux guide](http://www.syntaxsuccess.com/viewarticle/redux-in-angular-2.0) (Thanks @baloodevil)
+- It's out of scope for this faq, but a guide for Redux in general and why it is useful: [Egghead.io getting started with redux](https://egghead.io/series/getting-started-with-redux)
 
 ## ngrx
-    - [store](https://github.com/ngrx/store)
-    - [store example](https://github.com/ngrx/angular2-store-example)
-        - [refactoring underway](https://github.com/fxck/angular2-store-example/tree/fxck-refactoring)
-    - [examples](https://github.com/btroncone/ngrx-examples) (Thanks @btroncone)
-    - [docs from @btroncone](https://github.com/btroncone/ngrx.github.io)
+- [store](https://github.com/ngrx/store)
+- [store example](https://github.com/ngrx/angular2-store-example)
+    - [refactoring underway](https://github.com/fxck/angular2-store-example/tree/fxck-refactoring)
+- [examples](https://github.com/btroncone/ngrx-examples) (Thanks @btroncone)
+- [docs from @btroncone](https://github.com/btroncone/ngrx.github.io)
 
