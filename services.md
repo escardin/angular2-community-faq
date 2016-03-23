@@ -1,6 +1,10 @@
-## Services
+#Table of contents
+- [How do I create a service?](#how-do-i-create-a-service)
+- [How do I share a service instance between multiple components?](#how-do-i-share-a-service-instance-between-multiple-components)
+- [How do I communicate between two sibling components?](#how-do-i-communicate-between-two-sibling-components)
+- [How do I communicate between components using a shared service?](#how-do-i-communicate-between-components-using-a-shared-service)
 
-### How do I create a service?
+# How do I create a service?
 A service is just a TypeScript class. If your service has dependencies which need to be injected, you need to annotate it. The `Injectable()` annotation was created for this purpose.
 ```javascript
 export class LogService{}
@@ -23,10 +27,13 @@ bootstrap(TodoComponent,[AuthService]);
 ```
 See also: [Injectable Metadata](https://angular.io/docs/ts/latest/api/core/InjectableMetadata-class.html)
 
-### How do I share a service instance between multiple components?
+# How do I share a service instance between multiple components?
 Provide the service in a common parent or the bootstrap. Every time you provide a service you get a new instance.
 
-### How do I communicate between components using a shared service?
+# How do I communicate between two sibling components?
+There are two common approaches; Use a shared service, or have a common parent pass messages between the two.
+
+# How do I communicate between components using a shared service?
 
 A shared service is one way of sharing data between components which are not directly related to each other (i.e. not the immediate parent or child).
 
