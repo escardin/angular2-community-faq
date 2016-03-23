@@ -1,8 +1,8 @@
 #Table of contents
-    - [How do I create a service?](#how-do-i-create-a-service)
-    - [How do I share a service instance between multiple components?](#how-do-i-share-a-service-instance-between-multiple-components)
-    - [How do I communicate between two sibling components?](#how-do-i-communicate-between-two-sibling-components)
-    - [How do I communicate between components using a shared service?](#how-do-i-communicate-between-components-using-a-shared-service)
+- [How do I create a service?](#how-do-i-create-a-service)
+- [How do I share a service instance between multiple components?](#how-do-i-share-a-service-instance-between-multiple-components)
+- [How do I communicate between two sibling components?](#how-do-i-communicate-between-two-sibling-components)
+- [How do I communicate between components using a shared service?](#how-do-i-communicate-between-components-using-a-shared-service)
 
 # How do I create a service?
 A service is just a TypeScript class. If your service has dependencies which need to be injected, you need to annotate it. The `Injectable()` annotation was created for this purpose.
