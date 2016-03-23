@@ -43,12 +43,12 @@
     - [Redux](rxjs.md#redux)
     - [ngrx](rxjs.md#ngrx)
    
-##[Router](#router)
+##[Router](#router-1)
 - [Any good tutorials for the Router?](#any-good-tutorials-for-the-router)
 - [How do I do breadcrumbs with the Router?](#how-do-i-do-breadcrumbs-with-the-router)
 - [How do I make the Router components and directives available for every component?](#how-do-i-make-the-router-components-and-directives-available-for-every-component)
    
-##[Forms](#forms)  
+##[Forms](#forms-1)  
 - [Validation](#validation)
     - [Multiple Validators](#how-do-i-use-more-than-one-validator-on-a-single-control)
     - [Custom validation](#how-do-i-make-a-custom-validator)
@@ -56,12 +56,12 @@
     - [Dependent Validators](#how-do-i-validate-a-control-based-on-the-value-in-another-control)
 - [Complex Forms](#complex-forms)
     - [Dependent Inputs](#how-do-i-have-a-select-box-that-is-dependent-on-another-select-box)
-    - [Form elements in sub components](#form-elements-in-sub-components)
+    - [Form elements in sub components](#how-do-i-have-form-elements-in-sub-components)
 
 ##Templates
 - [How do I make n elements in an *ngFor without a model?](https://plnkr.co/edit/FTPFoylc8s8pEiVRMoB9?p=preview)
 
-##Services and Components
+##[Services and Components](services.md)
 - [How do I create a service?](services.md#how-do-i-create-a-service)
 - [How do I share a service instance between multiple components?](services.md#how-do-i-share-a-service-instance-between-multiple-components)
 - [How do I communicate between two sibling components?](services.md#how-do-i-communicate-between-two-sibling-components)
