@@ -108,6 +108,7 @@ After you're done with this config, you can import them as in [Individual Operat
 - You may want to read this introduction: https://gist.github.com/staltz/868e7e9bc2a7b8c1f754
 - For visual examples of Rx see: [Rx Marbles](http://rxmarbles.com/)
 - [RxJS 4 operator documentation with examples](https://github.com/Reactive-Extensions/RxJS/tree/master/doc/api/core/operators) (applies reasonably to RxJS 5 in Angular 2)
+- @xgrommx put togther an awesome [rx book](http://xgrommx.github.io/rx-book/index.html)
 - [Filtering data using observables and form inputs](http://plnkr.co/edit/CTpE1DtaVzk1JU5eQWBu?p=preview)
 - [Drag and drop list (similar to JqueryUI sortable list)](http://plnkr.co/edit/LD5FJaI4OOFbKfvhjD4e?p=preview)
 - Youtube Talks
