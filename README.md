@@ -29,34 +29,34 @@
    - Others (are there any others?)
  
 ##[RxJS](rxjs.md)
-   - [Adding operators (map is not defined)](rxjs.md#adding-operatorsobservables-map-is-not-defined)
-        - [Full RxJS](rxjs.md#full-rxjs)
-        - [Individual Operators](rxjs.md#individual-operators)
-   - [Loading operators individually for RxJS + Angular2 + SystemJS](rxjs.md#loading-operators-individually-for-rxjs--angular2--systemjs)
-        - [Configuration for full RxJS](rxjs.md#configuration-for-full-rxjs)
-        - [Configuration for individual observables / operators](rxjs.md#configuration-for-individual-observables--operators)
-            - [Simpler configuration](rxjs.md#simpler-configuration)
-            - [Alternative configuration](rxjs.md#alternative-configuration)
-        - [Reference](rxjs.md#reference)
-   - [What are observables and where can I learn more about them and RxJS?](rxjs.md#what-are-observables-and-where-can-i-learn-more-about-them-and-rxjs)
-   - [Redux + Rx + Angular2 / ngrx](rxjs.md#redux--rx--angular2--ngrx)
-        - [Redux](rxjs.md#redux)
-        - [ngrx](rxjs.md#ngrx)
+- [Adding operators (map is not defined)](rxjs.md#adding-operatorsobservables-map-is-not-defined)
+    - [Full RxJS](rxjs.md#full-rxjs)
+    - [Individual Operators](rxjs.md#individual-operators)
+- [Loading operators individually for RxJS + Angular2 + SystemJS](rxjs.md#loading-operators-individually-for-rxjs--angular2--systemjs)
+    - [Configuration for full RxJS](rxjs.md#configuration-for-full-rxjs)
+    - [Configuration for individual observables / operators](rxjs.md#configuration-for-individual-observables--operators)
+        - [Simpler configuration](rxjs.md#simpler-configuration)
+        - [Alternative configuration](rxjs.md#alternative-configuration)
+    - [Reference](rxjs.md#reference)
+- [What are observables and where can I learn more about them and RxJS?](rxjs.md#what-are-observables-and-where-can-i-learn-more-about-them-and-rxjs)
+- [Redux + Rx + Angular2 / ngrx](rxjs.md#redux--rx--angular2--ngrx)
+    - [Redux](rxjs.md#redux)
+    - [ngrx](rxjs.md#ngrx)
    
 ##[Router](#router)
-   - [Any good tutorials for the Router?](#any-good-tutorials-for-the-router)
-   - [How do I do breadcrumbs with the Router?](#how-do-i-do-breadcrumbs-with-the-router)
-   - [How do I make the Router components and directives available for every component?](#how-do-i-make-the-router-components-and-directives-available-for-every-component)
+- [Any good tutorials for the Router?](#any-good-tutorials-for-the-router)
+- [How do I do breadcrumbs with the Router?](#how-do-i-do-breadcrumbs-with-the-router)
+- [How do I make the Router components and directives available for every component?](#how-do-i-make-the-router-components-and-directives-available-for-every-component)
    
 ##[Forms](#forms)  
-   - [Validation](#validation)
-        - [Multiple Validators](#how-do-i-use-more-than-one-validator-on-a-single-control)
-        - [Custom validation](#how-do-i-make-a-custom-validator)
-        - [Async Validators](#how-do-i-make-an-async-validator)
-        - [Dependent Validators](#how-do-i-validate-a-control-based-on-the-value-in-another-control)
-   - [Complex Forms](#complex-forms)
-        - [Dependent Inputs](#how-do-i-have-a-select-box-that-is-dependent-on-another-select-box)
-        - [Form elements in sub components](#form-elements-in-sub-components)
+- [Validation](#validation)
+    - [Multiple Validators](#how-do-i-use-more-than-one-validator-on-a-single-control)
+    - [Custom validation](#how-do-i-make-a-custom-validator)
+    - [Async Validators](#how-do-i-make-an-async-validator)
+    - [Dependent Validators](#how-do-i-validate-a-control-based-on-the-value-in-another-control)
+- [Complex Forms](#complex-forms)
+    - [Dependent Inputs](#how-do-i-have-a-select-box-that-is-dependent-on-another-select-box)
+    - [Form elements in sub components](#form-elements-in-sub-components)
 
 ##Templates
 - [How do I make n elements in an *ngFor without a model?](https://plnkr.co/edit/FTPFoylc8s8pEiVRMoB9?p=preview)
@@ -71,8 +71,8 @@
 - [How do I test an error path with Http and MockBackend?](testing-http-services.md)
 
 ##[Making fun things](cool_stuff.md) 
-   - Drag and Drop
-   - Other fun things...
+- Drag and Drop
+- Other fun things...
 
 
 # Router
