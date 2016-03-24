@@ -21,7 +21,7 @@ If you are using SystemJS, some further configuration is needed beyond what is d
 ## Full RxJS
 If you want to enable the full functionality of RxJS and don't care about bundle size, you can do:
 ```typescript
-import from 'rxjs/Rx';
+import 'rxjs/Rx';
 import {Observable} from 'rxjs/Observable';
 
 Observable.of(1,2,3);
