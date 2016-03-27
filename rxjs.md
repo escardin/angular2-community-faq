@@ -48,28 +48,11 @@ Further Reading: https://github.com/ReactiveX/RxJS#installation-and-usage
    
 # Loading operators individually for RxJS + Angular2 + SystemJS
 
-This is a simple change, but it has caused a lot of headaches in people. So this explanaition will be super simple and straightfoward.
-
 This guide assumes you have the latest version of Angular2, RxJS 5 and SystemJS.
 
 In your index.html your System.config should look like this
 
 ## Configuration for full RxJS
-
-```javascript
-System.config({
-	map : {
-		'rxjs' : 'node_modules/rxjs/Rx.js'
-	}
-});
-```
-
-With this configuration you don't need to import each operator / observable individually ([Full RxJS](#full-rxjs))
-
-## Configuration for individual observables / operators
-Note that these are largely equivalent 
-
-### Simpler configuration
 
 ```javascript
 System.config({
@@ -81,18 +64,8 @@ System.config({
 	}
 }
 ```
+Note : this configuration is not needed if you're using the Rx.js bundle provided by angular2. See the [official plnkr](https://angular.io/resources/live-examples/tutorial/ts/plnkr.html).
 
-### Alternative configuration
-
-```javascript
-System.config({
-	paths: {
-		'rxjs/add/observable/*' : 'node_modules/rxjs/add/observable/*.js',
-		'rxjs/add/operator/*' : 'node_modules/rxjs/add/operator/*.js',
-		'rxjs/*' : 'node_modules/rxjs/*.js'
-	}
-});
-```
 After you're done with this config, you can import them as in [Individual Operators](#individual-operators)
 
 ## Reference
