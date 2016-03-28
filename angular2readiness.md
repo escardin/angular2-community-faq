@@ -42,12 +42,20 @@ Angular 2 is very well tested~~, and does not exhibit a lot of bugs~~. Their git
 
 Here are a number of known issues/regressions that the community has found affecting whether you could go to production with a given version of Angular 2
 
-- Minification/mangling busted [#6380](https://github.com/angular/angular/issues/6380)
-- Attribute and class bindings throw an error when declared inside ngForm elements in Beta.1 [6374](https://github.com/angular/angular/issues/6374)
-- ngModel broken on select elements [#6573](https://github.com/angular/angular/issues/6573)
-- Problems with zone.js in beta10/11 [#7660](https://github.com/angular/angular/issues/7660)
-- beta.6: TypeError: viewFactory_<name>0 is not a function [#7037](https://github.com/angular/angular/issues/7037)
-- beta.2: "Attempt to use a dehydrated detector" in routes, triggered by eventEmitter [#6786](https://github.com/angular/angular/issues/6786)
+- Since Beta 1
+    - Minification/mangling busted [#6380](https://github.com/angular/angular/issues/6380)
+    - Attribute and class bindings throw an error when declared inside ngForm elements in Beta.1 [6374](https://github.com/angular/angular/issues/6374)
+    - ngModel broken on select elements [#6573](https://github.com/angular/angular/issues/6573)
+- Since Beta 2
+    - "Attempt to use a dehydrated detector" in routes, triggered by eventEmitter [#6786](https://github.com/angular/angular/issues/6786)
+- Since Beta 6
+    - TypeError: viewFactory_<name>0 is not a function [#7037](https://github.com/angular/angular/issues/7037)
+- Since Beta 10/11
+    - ~~Problems with zone.js in beta10/11 [#7660](https://github.com/angular/angular/issues/7660)~~ Largely resolved in Beta 12
+- Since Beta 12
+    - "More tasks executed then were scheduled" [#287](https://github.com/angular/zone.js/issues/287) [#7721](https://github.com/angular/angular/issues/7721)
+
+The currently recommended betas are 0, 9 and 12.
 
 # API Stability
 
