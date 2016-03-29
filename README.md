@@ -19,7 +19,7 @@
     - [Internationalization](angular2readiness.md#internationalization)
     - [Animation](angular2readiness.md#animation)
     - [Twitter Bootstrap/Material Design](angular2readiness.md#twitter-bootstrapmaterial-design)
-    
+
 ##Setting up Angular 2 with...
    - SystemJS
    - Webpack
@@ -27,7 +27,7 @@
    - Rollup
    - ES5/ES6 (no ts)
    - Others (are there any others?)
- 
+
 ##[RxJS](rxjs.md)
 - [Adding operators (map is not defined)](rxjs.md#adding-operatorsobservables-map-is-not-defined)
     - [Full RxJS](rxjs.md#full-rxjs)
@@ -42,12 +42,18 @@
 - [Redux + Rx + Angular2 / ngrx](rxjs.md#redux--rx--angular2--ngrx)
     - [Redux](rxjs.md#redux)
     - [ngrx](rxjs.md#ngrx)
-   
-##[Router](#router-1)
-- [Any good tutorials for the Router?](#any-good-tutorials-for-the-router)
-- [How do I do breadcrumbs with the Router?](#how-do-i-do-breadcrumbs-with-the-router)
-- [How do I make the Router components and directives available for every component?](#how-do-i-make-the-router-components-and-directives-available-for-every-component)
-   
+
+##[Router](router.md)
+- [How do I protect routes?](router.md#protecting-routes)
+- [How do I resolve data before a route activates?](router.md#resolving-route-data)
+- [How do I handle invalid URLs?](router.md#handling-invalid-urls)
+- [How do I add classes to elements that contain an active router link?](router.md#adding-classes-to-elements-containing-active-router-links)
+- [How do I add optional parameters for a route?](router.md#optional-parameters)
+- [How do I make a breadcrumb component?](router.md#breadcrumb-component)
+- [How do I make router components and directives available for every component?](router.md#global-router-directives)
+- [How do I use regular expressions for a route?](router.md#router-regex-serializer)
+- [How do I dynamically configure routes](router.md#router-dynamic-config)
+
 ##[Forms](#forms-1)  
 - [Validation](#validation)
     - [Multiple Validators](#how-do-i-use-more-than-one-validator-on-a-single-control)
@@ -66,11 +72,11 @@
 - [How do I share a service instance between multiple components?](services.md#how-do-i-share-a-service-instance-between-multiple-components)
 - [How do I communicate between two sibling components?](services.md#how-do-i-communicate-between-two-sibling-components)
 - [How do I communicate between components using a shared service?](services.md#how-do-i-communicate-between-components-using-a-shared-service)
-   
+
 ##Testing
 - [How do I test an error path with Http and MockBackend?](testing-http-services.md)
 
-##[Making fun things](cool_stuff.md) 
+##[Making fun things](cool_stuff.md)
 - Drag and Drop
 - Other fun things...
 
