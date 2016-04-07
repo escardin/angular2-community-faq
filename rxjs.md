@@ -84,6 +84,8 @@ After you're done with this config, you can import them as in [Individual Operat
 - @xgrommx put togther an awesome [rx book](http://xgrommx.github.io/rx-book/index.html)
 - [Filtering data using observables and form inputs](http://plnkr.co/edit/CTpE1DtaVzk1JU5eQWBu?p=preview)
 - [Drag and drop list (similar to JqueryUI sortable list)](http://plnkr.co/edit/LD5FJaI4OOFbKfvhjD4e?p=preview)
+- [Taking advantage of Observables in Angular 2](http://blog.thoughtram.io/angular/2016/01/06/taking-advantage-of-observables-in-angular2.html)
+- [Taking advantage of Observables in Angular 2 - Part 2](http://blog.thoughtram.io/angular/2016/01/07/taking-advantage-of-observables-in-angular2-pt2.html)
 - Youtube Talks
   - Rob Wormald
     - [Everything is a Stream](https://www.youtube.com/watch?v=UHI0AzD_WfY)
