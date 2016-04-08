@@ -1,5 +1,3 @@
-# *Section still not complete. Work In Progress*
-
 # Table of contents
 
 - [Proper use of EventEmitters](#proper-use-of-eventemitters)
@@ -13,20 +11,14 @@
 
 ## Proper use of EventEmitters
 
-EventEmitter extends from Subject, which give us the ability to subscribe. Should we? It's easy, convenient and super cool!
-But we should not! EventEmitter is an angular2 abstraction to communicate between components. Use it only with `@Output()`.
-It's not sure that it will continue being an Observable nor that will continue being part of the API at all! 
-
+While EventEmitter extends from Subject, giving us the ability to subscribe, you should not count on this staying. [Ward Bell has stated](http://www.bennadel.com/blog/3038-eventemitter-is-an-rxjs-observable-stream-in-angular-2-beta-6.htm#comments_47949) that it is highly likely to be removed before release. EventEmitter is intended to ONLY be used with `@Output()`. If you want to subscribe just use a Subject directly.
 
 See more 
 - [What is the proper use of an EventEmitter?](http://stackoverflow.com/questions/36076700/what-is-the-proper-use-of-an-eventemitter)
 
-
-
-
 ## ElementRef, nativeElement and Renderer
 
-Official documentation states we should not access nativeElement directly, how should we do it then? To access `nativeElement` correctly we must use Renderer since it's WebWorker safe.
+Official documentation recommends against using `nativeElement` directly. The reason for this is because it is not WebWorker safe (It may also not work with Universal, and alternate renderer implementaitons). The preferred approach is to use the `nativeElement` with the Renderer. 
 
 Consider the following examples
 
@@ -68,21 +60,40 @@ See more
 
 ## Don't use Subjects
 
-- TODO
+Subjects are a really powerful concept, they're an Observable that can also emit events. This power is easily abused though, and as such, it is better to try and avoid using Subjects whenever possible.
+
+There is a lot of discussion on why using Subjects is a bad idea, and the intent here is merely to be a summary. If you wish to learn more about subjects and why you shouldn't use them, please see the further reading at the end of this section.
+
+The gist of it is that Subjects are uncontrolled inputs to your observable sequence. You could be expecting numbers, and get a string instead. Controlling the input to your sequence is very important. This is why whenever possible you want to use an Observable helper instead of a Subject. Subjects are also hot, meaning that subcribers will only receive new events and not historical ones.
+
+Please also keep in mind, that if you use Observable.create and then hoist the input out of the create call, you have just made a subject.
+
+### What should I use instead?
+
+First and foremost, if you already have an Observable, or something that can easily be observed (Controls, Events, etc..) you should just observe it, and extend the processing chain to meet your needs (making it cold or hot, etc..).
+
+Once you have exhausted all of your options for Obervable.x besides create and Subject, then you must if your entire sequence can be determined at creation. If this is the case, then use Observable.create, otherwise use a Subject.
+
+Further Reading:
+- (http://tomstechnicalblog.blogspot.ca/2016/03/rxjava-problem-with-subjects.html)
+- (http://davesexton.com/blog/post/To-Use-Subject-Or-Not-To-Use-Subject.aspx)
+- (https://medium.com/@benlesh/learning-observable-by-building-observable-d5da57405d87#.12a0rfxtt)
+- (https://medium.com/@benlesh/hot-vs-cold-observables-f8094ed53339#.x0q63ntrm)
 
 
-## Don't mix angular2 with 3rd libs
+## Don't mix Angular 2 with third party libraries
 
-Most javascript libraries rely on `addEventListener`, `setTimeouts` and others that trigger change detection in angular2. 
-Triggering, or listening to events of 3rd party libs can trigger excesively change detection decreasing considerably the perfomance of the application.
+Angular 2 works far better with third party libraries than Angular 1 did. In many cases, a library will work just fine with Angular 2. The biggest reasons not to use third party libraries is that they simply will not work optimally with Angular 2.
+
+Most javascript libraries rely on `addEventListener`, `setTimeouts` and others that trigger change detection in Angular 2. Triggering, or listening to events of 3rd party libs can trigger excesive change detection, and considerably decrease the perfomance of your application.
 
 On the other hand, these libraries can rely on event handling not patched by angular2, therefore these events will run outside angular2's zone causing change detection NOT to run!
 
+Additionally, Angular 2 wants templates to be compiled at build time, and not include the compiler in your redistributable (improving speed and load time). This means that while it is possible to use third party libraries in your templates, it is not possible to compile angular templates in your third party libs, as that would require exposing the compiler and bundling it.
+
+With all of that said, libraries that don't manipulate the dom, and don't need to be patched to work with zones can and do work perfectly with Angular 2, without patching or modification.
+
 If some cool library hasn't been ported to angular2, be the first to port it! Make yourself famous!
-
-
-TODO : Improve more ?
-
 
 See more
 - [Using JQuery With Angular 2.0](http://www.syntaxsuccess.com/viewarticle/using-jquery-with-angular-2.0)
@@ -185,4 +196,4 @@ Angular2 is promoting [using @Injectable()](https://github.com/angular/angular.i
 By @gdi2290, see his [comment](https://github.com/angular/angular/issues/6223#issuecomment-193908465)
 >loadAsRoot is used during [bootstrap](https://github.com/angular/angular/blob/2.0.0-beta.8/modules/angular2/src/core/application_ref.ts#L50) where angular is wiring everything up (di, cd etc) and by design it doesn't wire anything up that was rendered on the server (security reasons).
 
-So basically you shouldn't use `loadAsRoot` at least you're rewriting the bootstrap logic, taking in consideration the quote above. Use `loadNextToLocation` or `loadIntoLocation` instead.
+So basically you shouldn't use `loadAsRoot` unless you're rewriting the bootstrap logic, taking into consideration the quote above. Use `loadNextToLocation` or `loadIntoLocation` instead.
