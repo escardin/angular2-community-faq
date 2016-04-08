@@ -53,7 +53,7 @@ Here are a number of known issues/regressions that the community has found affec
 - Since Beta 10/11
     - ~~Problems with zone.js in beta10/11 [#7660](https://github.com/angular/angular/issues/7660)~~ Largely resolved in Beta 12
 - Since Beta 12
-    - "More tasks executed then were scheduled" [#287](https://github.com/angular/zone.js/issues/287) [#7721](https://github.com/angular/angular/issues/7721)
+    - ~~"More tasks executed then were scheduled" [#287](https://github.com/angular/zone.js/issues/287) [#7721](https://github.com/angular/angular/issues/7721)~~ Fixed by zone 0.6.8
 
 The currently recommended betas are 0, 9 and 12.
 
