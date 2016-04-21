@@ -50,12 +50,8 @@ Here are a number of known issues/regressions that the community has found affec
     - "Attempt to use a dehydrated detector" in routes, triggered by eventEmitter [#6786](https://github.com/angular/angular/issues/6786)
 - Since Beta 6
     - TypeError: viewFactory_<name>0 is not a function [#7037](https://github.com/angular/angular/issues/7037)
-- Since Beta 10/11
-    - ~~Problems with zone.js in beta10/11 [#7660](https://github.com/angular/angular/issues/7660)~~ Largely resolved in Beta 12
-- Since Beta 12
-    - "More tasks executed then were scheduled" [#287](https://github.com/angular/zone.js/issues/287) [#7721](https://github.com/angular/angular/issues/7721)
 
-The currently recommended betas are 0, 9 and 12.
+The currently recommended betas are 0 (though at this point you should seriously consider upgrading anyway) and the latest beta (15 at the time of this update).
 
 # API Stability
 
@@ -63,7 +59,7 @@ With the release of beta, the Angular 2 team is hoping not to make breaking API 
 
 # Documentation
 
-The documentation is largely incomplete, and some examples are out of date. The good news is that the really critical stuff is reasonably documented, and Angular 2 is substantially simpler to learn than Angular 1.
+The general documentation and guide are very good and should be required reading. The API documentation is incomplete, and some examples are out of date. Overall the documentation is viable for everyday use.
 
 # Ecosystem
 
@@ -108,4 +104,6 @@ Angular 2's animation module is very rudimentary and the release version is not 
 
 # Twitter Bootstrap/Material Design
 
-Angular specific versions of these libraries are not yet available, though several users are using them successfully with some workarounds/caveats.
+The Angular 2 specific version of Material is in alpha and available here: https://github.com/angular/material2
+
+There is not an official version of Angular 2 bootstrap, but there are some repos you can find if you search.
