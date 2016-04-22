@@ -18,7 +18,7 @@ See more
 
 ## ElementRef, nativeElement and Renderer
 
-Official documentation recommends against using `nativeElement` directly. The reason for this is because it is not WebWorker safe (It may also not work with Universal, and alternate renderer implementaitons). The preferred approach is to use the `nativeElement` with the Renderer. 
+Official documentation recommends against using `nativeElement` directly. The reason for this is because it is not WebWorker safe (It may also not work with Universal, and alternate renderer implementaitons). The preferred approach is to use the `nativeElement` with the Renderer. Of course, if you don't plan on using any of the cool stuff mentioned above, and are only targeting desktop browsers, then you should feel free to do whatever works; sometimes that's the only option.
 
 Consider the following examples
 
