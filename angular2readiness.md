@@ -53,6 +53,7 @@ Here are a number of known issues/regressions that the community has found affec
     - className property binding and "complex" expressions [#8244](https://github.com/angular/angular/issues/8244)
     - When injecting a non-imported class all of them are undefined [#8245](https://github.com/angular/angular/issues/8245)
     - ngFor + ChangeDetectionStrategy.OnPush = event handler not working [#8242](https://github.com/angular/angular/issues/8242)
+    -  UMD bundle missing ng.platform.common export [#8299](https://github.com/angular/angular/issues/8299)
 
 The currently recommended beta is the latest beta (16 at the time of this update).
 
