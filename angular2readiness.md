@@ -43,15 +43,19 @@ Angular 2 is very well tested~~, and does not exhibit a lot of bugs~~. Their git
 Here are a number of known issues/regressions that the community has found affecting whether you could go to production with a given version of Angular 2
 
 - Since Beta 1
-    - Minification/mangling busted [#6380](https://github.com/angular/angular/issues/6380)
     - Attribute and class bindings throw an error when declared inside ngForm elements in Beta.1 [6374](https://github.com/angular/angular/issues/6374)
-    - ngModel broken on select elements [#6573](https://github.com/angular/angular/issues/6573)
 - Since Beta 2
     - "Attempt to use a dehydrated detector" in routes, triggered by eventEmitter [#6786](https://github.com/angular/angular/issues/6786)
 - Since Beta 6
     - TypeError: viewFactory_<name>0 is not a function [#7037](https://github.com/angular/angular/issues/7037)
+- Since Beta 16
+    - Scheduler / tick not working for code with multiple async-events [#8251](https://github.com/angular/angular/issues/8251)
+    - className property binding and "complex" expressions [#8244](https://github.com/angular/angular/issues/8244)
+    - When injecting a non-imported class all of them are undefined [#8245](https://github.com/angular/angular/issues/8245)
+    - ngFor + ChangeDetectionStrategy.OnPush = event handler not working [#8242](https://github.com/angular/angular/issues/8242)
+    -  UMD bundle missing ng.platform.common export [#8299](https://github.com/angular/angular/issues/8299)
 
-The currently recommended betas are 0 (though at this point you should seriously consider upgrading anyway) and the latest beta (15 at the time of this update).
+The currently recommended beta is the latest beta (16 at the time of this update).
 
 # API Stability
 
@@ -106,4 +110,4 @@ Angular 2's animation module is very rudimentary and the release version is not 
 
 The Angular 2 specific version of Material is in alpha and available here: https://github.com/angular/material2
 
-There is not an official version of Angular 2 bootstrap, but there are some repos you can find if you search.
+There is not an official version of Angular 2 bootstrap, but there are some repos you can find if you search. I suggest looking at [ng-bootstrap/core](https://github.com/ng-bootstrap/core)
