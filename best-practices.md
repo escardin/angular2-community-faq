@@ -7,7 +7,7 @@
 - [Don't use `ngAfterViewChecked` nor `ngAfterContentChecked`](#dont-use-ngafterviewchecked-nor-ngaftercontentchecked)
 - [Accessing elements in the view](#accessing-elements-in-the-view)
 - [Using @Injectable() in services](#using-injectable-in-services)
-- [DynamicComponentLoader and loadAsRoot](#dynamiccomponentloader-and-loadasroot)
+- ~~[DynamicComponentLoader and loadAsRoot](#dynamiccomponentloader-and-loadasroot)~~ _DynamicComponentLoader has been deprecated, see [5297c9d9](https://github.com/angular/angular/commit/5297c9d9ccc6f8831d1656915e3d78e767022517)_
 
 ## Proper use of EventEmitters
 
