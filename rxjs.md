@@ -1,4 +1,4 @@
-#Table of contents
+# Table of contents
 - [Adding operators (map is not defined)](#adding-operatorsobservables-map-is-not-defined)
     - [Full RxJS](#full-rxjs)
     - [Individual Operators](#individual-operators)

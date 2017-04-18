@@ -1,6 +1,6 @@
 # Angular 2 Community FAQ
 
-#Table of Contents
+# Table of Contents
 
 ## [General Angular 2 Questions](angular2readiness.md)
 - [When will Angular 2 be released?](angular2readiness.md#when-will-angular-2-be-released)
@@ -20,7 +20,7 @@
     - [Animation](angular2readiness.md#animation)
     - [Twitter Bootstrap/Material Design](angular2readiness.md#twitter-bootstrapmaterial-design)
 
-##Setting up Angular 2 with...
+## Setting up Angular 2 with...
    - SystemJS
    - Webpack
    - JSPM
@@ -28,7 +28,7 @@
    - ES5/ES6 (no ts)
    - Others (are there any others?)
 
-##[RxJS](rxjs.md)
+## [RxJS](rxjs.md)
 - [Adding operators (map is not defined)](rxjs.md#adding-operatorsobservables-map-is-not-defined)
     - [Full RxJS](rxjs.md#full-rxjs)
     - [Individual Operators](rxjs.md#individual-operators)
@@ -43,7 +43,7 @@
     - [Redux](rxjs.md#redux)
     - [ngrx](rxjs.md#ngrx)
 
-##[Router](router.md)
+## [Router](router.md)
 - [How do I protect routes?](router.md#protecting-routes)
 - [How do I resolve data before a route activates?](router.md#resolving-route-data)
 - [How do I handle invalid URLs?](router.md#handling-invalid-urls)
@@ -54,7 +54,7 @@
 - [How do I use regular expressions for a route?](router.md#router-regex-serializer)
 - [How do I dynamically configure routes](router.md#router-dynamic-config)
 
-##[Forms](#forms-1)  
+## [Forms](#forms-1)  
 - [Validation](#validation)
     - [Multiple Validators](#how-do-i-use-more-than-one-validator-on-a-single-control)
     - [Custom validation](#how-do-i-make-a-custom-validator)
@@ -64,19 +64,19 @@
     - [Dependent Inputs](#how-do-i-have-a-select-box-that-is-dependent-on-another-select-box)
     - [Form elements in sub components](#how-do-i-have-form-elements-in-sub-components)
 
-##Templates
+## Templates
 - [How do I make n elements in an *ngFor without a model?](https://plnkr.co/edit/FTPFoylc8s8pEiVRMoB9?p=preview)
 
-##[Services and Components](services.md)
+## [Services and Components](services.md)
 - [How do I create a service?](services.md#how-do-i-create-a-service)
 - [How do I share a service instance between multiple components?](services.md#how-do-i-share-a-service-instance-between-multiple-components)
 - [How do I communicate between two sibling components?](services.md#how-do-i-communicate-between-two-sibling-components)
 - [How do I communicate between components using a shared service?](services.md#how-do-i-communicate-between-components-using-a-shared-service)
 
-##Testing
+## Testing
 - [How do I test an error path with Http and MockBackend?](testing-http-services.md)
 
-##[Making fun things](cool_stuff.md)
+## [Making fun things](cool_stuff.md)
 - Drag and Drop
 - Other fun things...
 
