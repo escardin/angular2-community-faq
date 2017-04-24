@@ -1,4 +1,4 @@
-#Table of Contents
+# Table of Contents
 
 - [When will Angular 2 be released?](#when-will-angular-2-be-released)
 - [Seriously though, can I get an estimate?](#seriously-though-can-i-get-an-estimate)

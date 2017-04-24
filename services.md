@@ -1,4 +1,4 @@
-#Table of contents
+# Table of contents
 - [How do I create a service?](#how-do-i-create-a-service)
 - [How do I share a service instance between multiple components?](#how-do-i-share-a-service-instance-between-multiple-components)
 - [How do I communicate between two sibling components?](#how-do-i-communicate-between-two-sibling-components)
